@@ -4,31 +4,33 @@
     <meta charset="utf-8">
     <title>Sippin! version b1</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="normalize.css">
   </head>
   <body>
-
-    <div id="playerSelect">
-      <p>Player Name:</p>
-      <input id="playerInput" type="text" >
-      <button id="btnAddPlayer" type="button">Add</button>
-      <button id="btnStart" type="button">Start The Game</button>
-    </div>
-    <div id="playerTurn"></div>
-    <ol id="playerList">
-    </ol>
-
-    <div id="gameScreen">
-      <button id="whoSips" type="button">Who be Sippin?</button>
-      <button id="numOfSips" type="button">How much they Sippin?</button>
-      <div id="outputPlayer">
-        <p> </p>
+    <div class="wrapper">
+      <div id="playerSelect">
+        <p>Player Name:</p>
+        <input id="playerInput" type="text" >
+        <button id="btnAddPlayer" type="button">Add</button>
+        <button id="btnStart" type="button">Start The Game</button>
       </div>
-      <div id="outputSips">
-        <p> </p>
+      <div id="playerTurn"></div>
+      <ol id="playerList">
+      </ol>
+
+      <div id="gameScreen">
+        <button id="whoSips" type="button">Who be Sippin?</button>
+        <button id="numOfSips" type="button">How much they Sippin?</button>
+        <div id="outputPlayer">
+          <p> </p>
+        </div>
+        <div id="outputSips">
+          <p> </p>
+        </div>
       </div>
-    </div>
 
 
-    <script src="script.js"></script>
+      <script src="script.js"></script>
+  </div>
   </body>
 </html>
